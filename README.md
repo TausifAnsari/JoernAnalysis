@@ -96,7 +96,8 @@ There are tutorials on youtube which can be helpful to install on [Windows](http
 
 This repository contains two scripts, `flowGraph1.sc` and `flowGraph2.sc`, designed to generate different graphs by analyzing the data flow within source code.
 
-To utilize the scripts provided in this repository, follow these steps:
+### Running the Script on our testcases or programs.
+There are few programs or testcases that are already present in this repository you can utilize those testcases to run the analysis on. To utilize the scripts provided in this repository, follow these steps:
 
 1. Once you are done cloning the repository, Run the below command with the appropriate parameters.
    ```sh
@@ -151,7 +152,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links 
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -180,4 +181,4 @@ Don't forget to give the project a star! Thanks again!
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com -->
