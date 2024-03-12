@@ -43,9 +43,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This project requires installation of JDK as a prerequisite. The instructions on installation can be found [here](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A). Installation of java comes with the JDK, the instruction for installing java are [here](https://www.oracle.com/java/technologies/downloads/).
+1. Installation of JDK : This project requires installation of JDK as a prerequisite. The instructions on installation can be found [here](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A). Installation of java comes with the JDK, the instruction for installing java are [here](https://www.oracle.com/java/technologies/downloads/).
 There are tutorials on youtube which can be helpful to install on [Windows](https://www.youtube.com/watch?v=jPwrWjEwtrw) and [Mac](https://www.youtube.com/watch?v=PQk9O03cukQ).
-As a prerequisite, Joern should also be installed. Below are the instructions for the installation.
+2. Installation of Joern : Below are the instructions for the installation.
+
+
 
 
 ### Installation of Joern
@@ -78,6 +80,7 @@ As a prerequisite, Joern should also be installed. Below are the instructions fo
    ```sh
    cd JoernAnalysis
    ```
+   Note: Would you like to create a symlink to the Joern tools? [y/N]: y
 4. Open the project in Visual Studio Code
    ```sh
    code .
@@ -91,24 +94,36 @@ As a prerequisite, Joern should also be installed. Below are the instructions fo
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This repository contains two scripts, `flowGraph1.sc` and `flowGraph2.sc`, designed to generate different graphs by analyzing the data flow within source code.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+To utilize the scripts provided in this repository, follow these steps:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. Once you are done cloning the repository, Run the below command with the appropriate parameters.
+   ```sh
+   joern --script flowGraph1.sc --param cpgFile=./Program1 --param source=input --param sink=print
+   ```
+
+   cpgFile: Specify the directory containing the project or source code. <br />
+   source: Define the method from which you want to track the flow of data. <br />
+   sink: Identify where the data flow ends. If the source meets the sink, a graph will be generated. <br />
 
 
+### Running the Script on Your Own Code or Project
+To run this data flow analysis on other programs you can create a new directory and write program in it and use the script to generate graph.
 
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
+1. Create a new directory for your program
+   ```sh
+   mkdir new_program
+   ```
+2. Move your program files into the newly created directory
+   ```sh
+   mv /path/to/your/program_files/* new_program/
+   ```
+3. Run the below command with updated parameters, specifying the new program directory, the source method and the sink method
+   ```sh
+   joern --script flowGraph1.sc --param cpgFile=./new_program --param source=input --param sink=print
+   ```
+   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -130,33 +145,6 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
