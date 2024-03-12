@@ -44,10 +44,26 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This project requires installation of JDK as a prerequisite. The instructions on installation can be found [here](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A). Installation of java comes with the JDK, the instruction for installing java are [here](https://www.oracle.com/java/technologies/downloads/).
-There are tutorials on youtube which can be helpful to install on [Windows](https://www.youtube.com/watch?v=jPwrWjEwtrw) and [Mac](https://www.youtube.com/watch?v=PQk9O03cukQ)
+There are tutorials on youtube which can be helpful to install on [Windows](https://www.youtube.com/watch?v=jPwrWjEwtrw) and [Mac](https://www.youtube.com/watch?v=PQk9O03cukQ).
+As a prerequisite, Joern should also be installed. Below are the instructions for the installation.
 
 
-### Installation
+### Installation of Joern
+
+1. Open the terminal
+2. Install from source
+   ```sh
+   curl -L "https://github.com/joernio/joern/releases/latest/download/joern-install.sh" -o joern-install.sh
+   chmod u+x joern-install.sh
+   ./joern-install.sh --interactive
+   ```
+3. You can test your installation by running the following command
+   ```sh
+   joern
+   ```
+
+
+### Installation of this project
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -62,6 +78,7 @@ There are tutorials on youtube which can be helpful to install on [Windows](http
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
