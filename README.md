@@ -43,12 +43,9 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This project requires installation of jdk as a prerequisite. The instructions on installation can be found [here](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A)
+This project requires installation of JDK as a prerequisite. The instructions on installation can be found [here](https://docs.oracle.com/en/java/javase/18/install/overview-jdk-installation.html#GUID-8677A77F-231A-40F7-98B9-1FD0B48C346A). Installation of java comes with the JDK, the instruction for installing java are [here](https://www.oracle.com/java/technologies/downloads/).
 There are tutorials on youtube which can be helpful to install on [Windows](https://www.youtube.com/watch?v=jPwrWjEwtrw) and [Mac](https://www.youtube.com/watch?v=PQk9O03cukQ)
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+
 
 ### Installation
 
