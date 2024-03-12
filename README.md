@@ -69,13 +69,13 @@ As a prerequisite, Joern should also be installed. Below are the instructions fo
    ```sh
    git clone https://github.com/TausifAnsari/JoernAnalysis.git
    ```
-3. Install NPM packages
+3. Change directory to project root
    ```sh
-   npm install
+   cd JoernAnalysis
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Open the project in Visual Studio Code
+   ```sh
+   code .
    ```
 
 
