@@ -1,0 +1,6 @@
+digraph flowGraph {
+	Start [shape=ellipse];
+	Start -> "│Call      │input(\"Enter your name\")       │3   │main  │example.py│";
+	"│Call      │input(\"Enter your name\")       │3   │main  │example.py│" -> "│Identifier│name = input(\"Enter your name\")│3   │main  │example.py│";
+	"│Identifier│name = input(\"Enter your name\")│3   │main  │example.py│" -> "│Identifier│list1.append(name)             │6   │main  │example.py│";
+}
