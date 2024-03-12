@@ -50,14 +50,19 @@ As a prerequisite, Joern should also be installed. Below are the instructions fo
 
 ### Installation of Joern
 
-1. Open the terminal
-2. Install from source
+1. Install shell script
    ```sh
    curl -L "https://github.com/joernio/joern/releases/latest/download/joern-install.sh" -o joern-install.sh
+   ```
+2. Change mode to make file executable
+   ```sh
    chmod u+x joern-install.sh
+   ```
+3. Run the installer
+   ```sh
    ./joern-install.sh --interactive
    ```
-3. You can test your installation by running the following command
+4. You can test your installation by running the following command
    ```sh
    joern
    ```
