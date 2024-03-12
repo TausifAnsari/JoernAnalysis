@@ -1,4 +1,4 @@
-./workspace
-./workspaces
-./*.png
-./*.dot
+workspace
+workspaces
+*.png
+*.dot
