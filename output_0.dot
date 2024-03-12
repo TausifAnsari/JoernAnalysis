@@ -1,4 +1,0 @@
-digraph flowGraph {
-	Start [shape=ellipse];
-	Start -> "│Call      │input(\"Enter your name\")       │3   │main  │example.py│";
-}
