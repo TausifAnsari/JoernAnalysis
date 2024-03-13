@@ -21,7 +21,7 @@ import scala.sys.process._
         writer.println("digraph flowGraph {")
 
         // Add "Start" node to all DOT files
-        writer.println("\tStart [shape=ellipse];")
+        // writer.println("\tStart [shape=ellipse];")
 
         // Write the graph connections for all elements up to the current one
         for (i <- 0 to index) {
